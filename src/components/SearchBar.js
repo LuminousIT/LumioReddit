@@ -1,7 +1,12 @@
 import React from 'react';
 import {View, TextInput, StyleSheet} from 'react-native';
 
-const SearchBar = ({searchValue = '', handleSearch = () => {}}) => {
+const SearchBar = ({
+  searchValue = '',
+  handleFocus,
+  handleSearch = () => {},
+  blurInput,
+}) => {
   return (
     <View style={styles.container}>
       <TextInput
@@ -9,6 +14,8 @@ const SearchBar = ({searchValue = '', handleSearch = () => {}}) => {
         placeholder="Search"
         onChangeText={handleSearch}
         style={styles.input}
+        onFocus={handleFocus}
+        onBlur={blurInput}
       />
     </View>
   );
@@ -26,6 +33,7 @@ const styles = StyleSheet.create({
   },
   container: {
     marginVertical: 5,
+    position: 'relative',
     // borderWidth: 1,
   },
 });

@@ -9,7 +9,6 @@ export const reqDispatch = (type, payload) => ({
 export const getNewsAction = (type, query) => async dispatch => {
   try {
     const data = await getNews(type, query);
-    console.log('fetched data', data);
     // TODO: Check request response if there's error, then throw
 
     // If fetch is successful,

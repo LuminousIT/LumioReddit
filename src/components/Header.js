@@ -1,13 +1,29 @@
 import React, {useEffect, useState} from 'react';
-import {View, Pressable, Text, StyleSheet} from 'react-native';
+import {
+  View,
+  Pressable,
+  Text,
+  StyleSheet,
+  ActivityIndicator,
+} from 'react-native';
 import FeedModal from './FeedModal';
 import SearchBar from './SearchBar';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faCaretSquareDown} from '@fortawesome/free-regular-svg-icons';
+import {getCache} from '../utils.js';
+import CacheData from './CacheData';
 
-const Header = ({triggerFeedFetch, handleSearch, searchValue}) => {
+const Header = ({
+  triggerFeedFetch,
+  handleSearch,
+  searchValue,
+  hideCacheComponent,
+  handleSearchFocus,
+  loader,
+}) => {
   const [open, setOpen] = useState(false);
   const [activeFeed, setActiveFeed] = useState('Top');
+
   const handleClose = () => {
     setOpen(false);
   };
@@ -27,8 +43,13 @@ const Header = ({triggerFeedFetch, handleSearch, searchValue}) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>r/programming News Feed</Text>
-      <SearchBar handleSearch={handleSearch} searchValue={searchValue} />
+      <Text style={styles.title}>Lumio r/programming News Feed</Text>
+      <SearchBar
+        handleSearch={handleSearch}
+        searchValue={searchValue}
+        handleFocus={handleSearchFocus}
+        blurInput={hideCacheComponent}
+      />
       <Pressable style={styles.select} onPress={handleOpenModal}>
         <Text style={styles.title}>{activeFeed}</Text>
         <FontAwesomeIcon icon={faCaretSquareDown} />
@@ -39,11 +60,15 @@ const Header = ({triggerFeedFetch, handleSearch, searchValue}) => {
           handleSelect={handleSelect}
         />
       </Pressable>
+      {loader && <ActivityIndicator color="blue" size="large" />}
     </View>
   );
 };
 
 const styles = StyleSheet.create({
+  container: {
+    position: 'relative',
+  },
   title: {
     color: 'black',
     fontWeight: 'bold',

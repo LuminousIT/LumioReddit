@@ -1,16 +1,16 @@
 import React, {useState} from 'react';
 import {Image, StyleSheet, View} from 'react-native';
-import ThumbnailImage from '../assets/thumbnail.jpg';
 
 const ImageContainer = ({source}) => {
   const [fetched, setFectched] = useState(false);
 
-  const _onLoadSuccessful = () => {
+  const _onLoadSuccessful = data => {
     setFectched(true);
   };
   const _onLoadFailed = () => {
     setFectched(false);
   };
+
   return (
     <View style={styles.container}>
       <Image
@@ -20,15 +20,22 @@ const ImageContainer = ({source}) => {
         style={{
           width: '100%',
           height: '100%',
-          // opacity: fetched ? 1 : 0,
           opacity: 1,
         }}
+        onLoadStart={() => setFectched(false)}
         onLoad={_onLoadSuccessful}
         onError={_onLoadFailed}
       />
-      {/* <View style={([styles.thumbnailContainer], {opacity: fetched ? 1 : 0})}>
-        <Image source={require('../assets/thumbnail.jpg')} resizeMode="cover" />
-      </View> */}
+      {!fetched && (
+        <View style={([styles.thumbnailContainer], {opacity: 1})}>
+          <Image
+            source={require('../assets/placeholder-image.jpg')}
+            resizeMode="cover"
+            width={100}
+            height={100}
+          />
+        </View>
+      )}
     </View>
   );
 };
@@ -57,4 +64,4 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
 });
-export default ImageContainer;
+export default React.memo(ImageContainer);
