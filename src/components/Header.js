@@ -10,8 +10,6 @@ import FeedModal from './FeedModal';
 import SearchBar from './SearchBar';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faCaretSquareDown} from '@fortawesome/free-regular-svg-icons';
-import {getCache} from '../utils.js';
-import CacheData from './CacheData';
 
 const Header = ({
   triggerFeedFetch,
