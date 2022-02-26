@@ -12,7 +12,6 @@ const ImageContainer = ({source}) => {
         }
         resizeMode="cover"
         style={{width: 100, height: 100}}
-        onError={e => console.log('error', e)}
       />
     </View>
   );

@@ -17,7 +17,6 @@ export const storeCache = async value => {
       await AsyncStorage.setItem('@cache', stringified);
       return 1;
     }
-    console.log('this cache value', value);
     const cachedData = JSON.parse(cache);
     if (cachedData.indexOf(value) < 0) {
       const toStore = [...cachedData, value];
