@@ -6,8 +6,9 @@ function CacheData({cacheData = [], handleCacheSelect}) {
     <>
       {cacheData.length > 1 && (
         <View style={styles.cacheContainer}>
-          {cacheData.map(item => (
+          {cacheData.map((item, index) => (
             <TouchableOpacity
+              key={index}
               onPress={() => handleCacheSelect(item)}
               style={styles.itemContainer}>
               <Text style={styles.item}> {item} </Text>

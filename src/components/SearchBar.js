@@ -1,5 +1,11 @@
 import React from 'react';
-import {View, TextInput, StyleSheet} from 'react-native';
+import {
+  View,
+  TextInput,
+  StyleSheet,
+  TouchableWithoutFeedback,
+  Keyboard,
+} from 'react-native';
 
 const SearchBar = ({
   searchValue = '',
@@ -8,6 +14,7 @@ const SearchBar = ({
   blurInput,
 }) => {
   return (
+    // <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
     <View style={styles.container}>
       <TextInput
         value={searchValue}
@@ -18,6 +25,7 @@ const SearchBar = ({
         onBlur={blurInput}
       />
     </View>
+    // </TouchableWithoutFeedback>
   );
 };
 
@@ -26,7 +34,8 @@ const styles = StyleSheet.create({
     width: '100%',
     borderWidth: 1,
     borderRadius: 10,
-    paddingHorizontal: 5,
+    paddingHorizontal: 10,
+    paddingVertical: 10,
     backgroundColor: '#fff',
     borderColor: '#c4c4c4',
     color: '#000',

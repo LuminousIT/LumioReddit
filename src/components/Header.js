@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {
   View,
   Pressable,
+  TouchableOpacity,
   Text,
   StyleSheet,
   ActivityIndicator,
@@ -74,9 +75,11 @@ const styles = StyleSheet.create({
   },
   select: {
     flexDirection: 'row',
+    alignSelf: 'flex-start',
     alignItems: 'center',
     marginTop: 10,
     position: 'relative',
+    // borderWidth: 1,
   },
 });
 

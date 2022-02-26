@@ -23,6 +23,7 @@ const NewsFeed = () => {
 
   const [loader, setLoader] = useState(false);
   const [cacheData, setCacheData] = useState([]);
+  const [cacheVisible, setCacheVisible] = useState(false);
 
   const [query, setQuery] = useState('');
   const [newsType, setNewsType] = useState('');
@@ -81,6 +82,7 @@ const NewsFeed = () => {
   };
 
   const hideCacheComponent = () => {
+    setCacheVisible(false);
     setCacheData([]);
   };
 
@@ -88,6 +90,7 @@ const NewsFeed = () => {
     getCache('@cache').then(response =>
       response !== -1 ? setCacheData(response) : null,
     );
+    setCacheVisible(true);
   };
 
   return (
@@ -110,8 +113,11 @@ const NewsFeed = () => {
         onEndReached={info => {
           setQuery(news[news.length - 1].data.id);
         }}
+        keyboardShouldPersistTaps="handled"
       />
-      <CacheData cacheData={cacheData} handleCacheSelect={handleSearch} />
+      {cacheVisible && (
+        <CacheData cacheData={cacheData} handleCacheSelect={handleSearch} />
+      )}
     </>
   );
 };

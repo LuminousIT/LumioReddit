@@ -11,9 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		220C1058365A871EDEF1C0F9 /* libPods-LumioReddit-LumioRedditTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE37785CE5597111163C3C3 /* libPods-LumioReddit-LumioRedditTests.a */; };
-		36518F38ADAB57D06C9CD3D1 /* libPods-LumioReddit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD7377765A9AF5FFCE2563A /* libPods-LumioReddit.a */; };
+		5DBC40AF38307ADB0EE89F73 /* libPods-LumioReddit-LumioRedditTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0273C8052434B7754A18A7 /* libPods-LumioReddit-LumioRedditTests.a */; };
+		6626F93C83A89FFFBC0E4F18 /* libPods-LumioReddit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3817C2797138B5A2A9233F3 /* libPods-LumioReddit.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8ECEC7CA27C993470045B765 /* BridgingFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEC7C927C993470045B765 /* BridgingFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +31,21 @@
 		00E356EE1AD99517003FC87E /* LumioRedditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumioRedditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* LumioRedditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LumioRedditTests.m; sourceTree = "<group>"; };
-		04BF47B5302D3C34D182C2DD /* Pods-LumioReddit-LumioRedditTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumioReddit-LumioRedditTests.debug.xcconfig"; path = "Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* LumioReddit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumioReddit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LumioReddit/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = LumioReddit/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = LumioReddit/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LumioReddit/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LumioReddit/main.m; sourceTree = "<group>"; };
-		1DD7377765A9AF5FFCE2563A /* libPods-LumioReddit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LumioReddit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FE3252AB8BE8271F9492BCD /* Pods-LumioReddit-LumioRedditTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumioReddit-LumioRedditTests.release.xcconfig"; path = "Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests.release.xcconfig"; sourceTree = "<group>"; };
+		50FC819A66809F1E34366A44 /* Pods-LumioReddit-LumioRedditTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumioReddit-LumioRedditTests.release.xcconfig"; path = "Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests.release.xcconfig"; sourceTree = "<group>"; };
+		73F778806E0B4001000D47FD /* Pods-LumioReddit-LumioRedditTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumioReddit-LumioRedditTests.debug.xcconfig"; path = "Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LumioReddit/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8CE37785CE5597111163C3C3 /* libPods-LumioReddit-LumioRedditTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LumioReddit-LumioRedditTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A44706A6C849AAE6C6D8D69F /* Pods-LumioReddit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumioReddit.debug.xcconfig"; path = "Target Support Files/Pods-LumioReddit/Pods-LumioReddit.debug.xcconfig"; sourceTree = "<group>"; };
-		D71D1EF7D590FFBADF5A45F2 /* Pods-LumioReddit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumioReddit.release.xcconfig"; path = "Target Support Files/Pods-LumioReddit/Pods-LumioReddit.release.xcconfig"; sourceTree = "<group>"; };
+		8ECEC7C827C993470045B765 /* LumioReddit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LumioReddit-Bridging-Header.h"; sourceTree = "<group>"; };
+		8ECEC7C927C993470045B765 /* BridgingFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgingFile.swift; sourceTree = "<group>"; };
+		94A4AF5AF32BD9D1FDECE78D /* Pods-LumioReddit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumioReddit.release.xcconfig"; path = "Target Support Files/Pods-LumioReddit/Pods-LumioReddit.release.xcconfig"; sourceTree = "<group>"; };
+		AA0273C8052434B7754A18A7 /* libPods-LumioReddit-LumioRedditTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LumioReddit-LumioRedditTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3817C2797138B5A2A9233F3 /* libPods-LumioReddit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LumioReddit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BC07EDF9376C7229B9FFD3 /* Pods-LumioReddit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LumioReddit.debug.xcconfig"; path = "Target Support Files/Pods-LumioReddit/Pods-LumioReddit.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				220C1058365A871EDEF1C0F9 /* libPods-LumioReddit-LumioRedditTests.a in Frameworks */,
+				5DBC40AF38307ADB0EE89F73 /* libPods-LumioReddit-LumioRedditTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36518F38ADAB57D06C9CD3D1 /* libPods-LumioReddit.a in Frameworks */,
+				6626F93C83A89FFFBC0E4F18 /* libPods-LumioReddit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				1DD7377765A9AF5FFCE2563A /* libPods-LumioReddit.a */,
-				8CE37785CE5597111163C3C3 /* libPods-LumioReddit-LumioRedditTests.a */,
+				D3817C2797138B5A2A9233F3 /* libPods-LumioReddit.a */,
+				AA0273C8052434B7754A18A7 /* libPods-LumioReddit-LumioRedditTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,12 +119,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				8ECEC7C927C993470045B765 /* BridgingFile.swift */,
 				13B07FAE1A68108700A75B9A /* LumioReddit */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* LumioRedditTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F5C07EEF8502F200D8899664 /* Pods */,
+				8ECEC7C827C993470045B765 /* LumioReddit-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -140,12 +145,11 @@
 		F5C07EEF8502F200D8899664 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A44706A6C849AAE6C6D8D69F /* Pods-LumioReddit.debug.xcconfig */,
-				D71D1EF7D590FFBADF5A45F2 /* Pods-LumioReddit.release.xcconfig */,
-				04BF47B5302D3C34D182C2DD /* Pods-LumioReddit-LumioRedditTests.debug.xcconfig */,
-				4FE3252AB8BE8271F9492BCD /* Pods-LumioReddit-LumioRedditTests.release.xcconfig */,
+				D6BC07EDF9376C7229B9FFD3 /* Pods-LumioReddit.debug.xcconfig */,
+				94A4AF5AF32BD9D1FDECE78D /* Pods-LumioReddit.release.xcconfig */,
+				73F778806E0B4001000D47FD /* Pods-LumioReddit-LumioRedditTests.debug.xcconfig */,
+				50FC819A66809F1E34366A44 /* Pods-LumioReddit-LumioRedditTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,12 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "LumioRedditTests" */;
 			buildPhases = (
-				5508FAE2C9F37A403CB91BC9 /* [CP] Check Pods Manifest.lock */,
+				807310A22925F6B886CF7C7D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				B18D8053EACEE6F346894B81 /* [CP] Embed Pods Frameworks */,
-				15B4205E6596B3BC4C98D0CE /* [CP] Copy Pods Resources */,
+				1E69ED7A96353A29435C2831 /* [CP] Embed Pods Frameworks */,
+				D234DA487CBFC0E85A268BB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +181,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LumioReddit" */;
 			buildPhases = (
-				7AD4C1F6E71A76D662A88B82 /* [CP] Check Pods Manifest.lock */,
+				C6C4F59D9810A99030E285B9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				E40C0AE3A4B782B3CBBFBBBD /* [CP] Embed Pods Frameworks */,
-				D724437CFF3F21B61B6F107F /* [CP] Copy Pods Resources */,
+				7D6ACA2B115912AB88A2155F /* [CP] Embed Pods Frameworks */,
+				7E66F0FF51425D52AD517A4A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,7 +212,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -265,24 +269,58 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		15B4205E6596B3BC4C98D0CE /* [CP] Copy Pods Resources */ = {
+		1E69ED7A96353A29435C2831 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5508FAE2C9F37A403CB91BC9 /* [CP] Check Pods Manifest.lock */ = {
+		7D6ACA2B115912AB88A2155F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E66F0FF51425D52AD517A4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		807310A22925F6B886CF7C7D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,7 +342,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7AD4C1F6E71A76D662A88B82 /* [CP] Check Pods Manifest.lock */ = {
+		C6C4F59D9810A99030E285B9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,55 +364,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B18D8053EACEE6F346894B81 /* [CP] Embed Pods Frameworks */ = {
+		D234DA487CBFC0E85A268BB5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D724437CFF3F21B61B6F107F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E40C0AE3A4B782B3CBBFBBBD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LumioReddit/Pods-LumioReddit-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LumioReddit-LumioRedditTests/Pods-LumioReddit-LumioRedditTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -412,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				8ECEC7CA27C993470045B765 /* BridgingFile.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,8 +434,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04BF47B5302D3C34D182C2DD /* Pods-LumioReddit-LumioRedditTests.debug.xcconfig */;
+			baseConfigurationReference = 73F778806E0B4001000D47FD /* Pods-LumioReddit-LumioRedditTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -456,8 +462,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FE3252AB8BE8271F9492BCD /* Pods-LumioReddit-LumioRedditTests.release.xcconfig */;
+			baseConfigurationReference = 50FC819A66809F1E34366A44 /* Pods-LumioReddit-LumioRedditTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = LumioRedditTests/Info.plist;
@@ -480,7 +487,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A44706A6C849AAE6C6D8D69F /* Pods-LumioReddit.debug.xcconfig */;
+			baseConfigurationReference = D6BC07EDF9376C7229B9FFD3 /* Pods-LumioReddit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -498,6 +505,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LumioReddit;
+				SWIFT_OBJC_BRIDGING_HEADER = "LumioReddit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,7 +514,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D71D1EF7D590FFBADF5A45F2 /* Pods-LumioReddit.release.xcconfig */;
+			baseConfigurationReference = 94A4AF5AF32BD9D1FDECE78D /* Pods-LumioReddit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -523,6 +531,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LumioReddit;
+				SWIFT_OBJC_BRIDGING_HEADER = "LumioReddit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -561,6 +570,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -577,16 +587,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"\"$(SDKROOT)/usr/lib/swift\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(inherited)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -626,6 +632,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -635,16 +642,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"\"$(SDKROOT)/usr/lib/swift\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(inherited)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

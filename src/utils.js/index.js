@@ -1,10 +1,11 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export const processDate = date => {
-  const hour = new Date(date * 1000).getHours();
-  if (hour < 1) return new Date(date * 1000).getMinutes() + 'm';
-  if (hour > 24) return new Date(date * 1000).getDay() + 'd';
-  return hour + 'h';
+  // const hour = new Date(date * 1000).getHours();
+  // if (hour < 1) return new Date(date * 1000).getMinutes() + 'm';
+  // if (hour > 24) return new Date(date * 1000).getDay() + 'd';
+  // return hour + 'h';
+  return new Date(date * 1000).toDateString();
 };
 
 export const storeCache = async value => {

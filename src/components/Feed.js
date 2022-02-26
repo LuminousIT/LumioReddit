@@ -15,7 +15,16 @@ const Feed = ({item, handleOnItemSelect}) => {
       </View>
 
       <View style={styles.subContainer}>
-        <Text style={[styles.text, {textAlign: 'right'}]}>
+        <Text
+          style={[
+            styles.text,
+            {
+              textAlign: 'right',
+              color: '#c4c4c4',
+              fontSize: 10,
+              marginBottom: 5,
+            },
+          ]}>
           {processDate(item.created)}
         </Text>
         <Text style={styles.title}> {item?.title} </Text>

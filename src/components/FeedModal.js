@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 10,
     borderWidth: 1,
     position: 'absolute',
-    top: 110,
+    top: 120,
     left: 0,
   },
   modalView: {
@@ -53,11 +53,6 @@ const styles = StyleSheet.create({
     // borderRadius: 20,
     // padding: 10,
     alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
     shadowOpacity: 0.25,
     shadowRadius: 4,
     elevation: 5,
